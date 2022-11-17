@@ -1,0 +1,125 @@
+.home-container{
+    display:flex;
+    padding-left: 0px;
+    padding-right: 0%;
+
+}
+.all-movies{
+    width: 75%;
+    min-height: calc(100vh - 80px);
+    border-right: 1px solid #fdc827;
+    padding: 20px 40px;
+    font-family:"Robot", sans-serif;
+}
+.popular-movies{
+    width: 25%;
+    min-height: calc(100vh - 80px);
+    padding: 20px 40px;
+    font-family:"Robot", sans-serif;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+h4{
+    text-transform: uppercase;
+    font-weight: bold;
+    border-left: 5px solid #f90;
+    padding-left: 10px;
+}
+.view-all{
+    color: #f90;
+    background-color: lightslategray;
+    cursor: pointer;
+}
+
+.movies-thumbnail{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.img{
+    
+    border-radius: 5px;
+    
+}
+.cover{
+    padding: 20px;
+}
+.cover img{
+    height: 100%;
+    width: 180%;
+}
+.detail{
+    width: 180px;
+    display: inline;
+    padding-top: 200px;
+    padding-left: 10px;
+   
+}
+.name{
+    display: block;
+    position: absolute;
+    font-weight: bold;
+    height: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.star{
+    position: relative;
+    display: inline-block;
+    font-size: 30px;
+    color: #d3d3d3;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-right: 3px;
+    height: 30px;
+}
+.full {
+    color: red;
+}
+.half {
+    position: absolute;
+    display: inline-block;
+    margin-top: 100px;
+}
+.filled.low {
+    color: #ff1e1e;
+}
+.rating{
+    padding: rating 45px;
+    position:  relative;
+}
+.rating-value{
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    font-weight: bold;
+
+}
+h5{
+    text-transform: uppercase;
+    font-weight: bold;
+    border-left: 5px solid #f90;
+    padding-left: 10px;
+}
+
+.movie{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.view-all{
+    color: #ff9900;
+    text-align: right;
+    margin-top: 30px;
+    cursor: pointer;
+
+}
